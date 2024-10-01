@@ -1,0 +1,70 @@
+header{
+    background-color: grey;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {   
+    padding: 50px 15px 15px;
+}
+
+.input-search {
+    width: 100%;
+    max-width: 320px;
+    padding: 15px;
+    background-color: lightgray;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    border: 2px solid black;
+    font-weight: 400;
+}
+
+.input-search:focus {
+    background-color: rgb(238, 238, 240);
+}
+
+.box {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.location-city {
+    font-size: 50px;
+   
+    margin-bottom: 15px;
+}
+
+.location-date {
+    font-size: 30px;
+
+    font-weight: 300;
+}
+
+.temperature-temp {
+  
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.temperature-type {  
+    font-size: 50px;
+}
+
+.temperature-range {
+    margin-top: 10px;
+    font-size: 20px;
+}
